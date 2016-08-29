@@ -7,3 +7,12 @@ body {
     font-size: 1.5em;
     background: url(https://img.ifcdn.com/images/fa1c482ca46d8d141e971b3df6683c2cd0a813cc81a6c1a185fe1b3c1d619558_1.gif);
 }
+
+.blink {
+ animation: blink-animation 1s steps(5, start) infinite;
+}
+@keyframes blink-animation {
+ to {
+   visibility: hidden;
+ }
+}
