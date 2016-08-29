@@ -18,3 +18,8 @@ body {
     color:white;
     text-decoration: underline
 }
+
+.poem {
+    text-align: center;
+    line-height: 0;
+}
