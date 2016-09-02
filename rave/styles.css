@@ -1,5 +1,5 @@
 body {
-    animation: colorchange 0.5s infinite;
+    animation: colorchange 0.3s infinite;
     -webkit-animation: colorchange 0.5s infinite;
 }
 
@@ -17,4 +17,32 @@ body {
       50%  {background: #ff00aa;}
       75%  {background: #aa00ff;}
       100% {background: #00aaff;}
+}
+
+img {
+    border-radius: 0px;
+}
+
+
+#playlist,
+audio {
+  background: #666;
+  width: 400px;
+  padding: 20px;
+}
+
+.active a {
+  color: #5DB0E6;
+  text-decoration: none;
+}
+
+li a {
+  color: #eeeedd;
+  background: #333;
+  padding: 5px;
+  display: block;
+}
+
+li a:hover {
+  text-decoration: none;
 }
