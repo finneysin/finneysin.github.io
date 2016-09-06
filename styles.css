@@ -7,19 +7,28 @@ body {
     font-family: sans-serif;
     font-size: 1.5em;
     text-decoration: none;
+    background: #440b80;
+    background: -moz-radial-gradient(center, ellipse cover, #440b80 0%, #000000 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, #440b80 0%,#000000 100%);
+    background: radial-gradient(ellipse at center, #440b80 0%,#000000 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#440b80', endColorstr='#000000',GradientType=1 );
 }
 
 .link {
     color: white;
+    text-shadow: 2px 2px black;
 }
 
 .header {
     color:white;
+    text-shadow: 2px 2px black;
     text-decoration: underline
 }
 
 .poem {
     text-align: center;
     line-height: 0;
+    text-shadow: 2px 2px black;
+    color: white;
 }
 
