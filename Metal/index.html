@@ -1,0 +1,29 @@
+  <!DOCTYPE html>
+<html>
+    <head>
+        
+        <meta charset=utf-8 />
+        <title>Slipknot</title>
+        <script type="text/javascript">
+            var index=0;
+            function changeBanner(){ 
+                [].forEach.call(document.images,function (v,i) { document.images[i].hidden = i!==index});
+                index = (index+1) % document.images.length;
+                }
+            window.onload = function () {setInterval(changeBanner, 3000)};
+      </script>
+    </head>
+    <body>
+        
+        <div id="wrapper">
+            <div>
+                <img src="https://66.media.tumblr.com/c6b6f328e0d68b2ba77bf69513840042/tumblr_nu4syihcZl1tx259ro1_500.gif" width="900px" height="300px" />
+                <img src="http://33.media.tumblr.com/a3fae814a38e85db6e897accf0cecbf1/tumblr_ne9xcnXOoV1swrhtco1_1280.gif" width="900px" height="300px" />
+                <img src="https://66.media.tumblr.com/ecbb57de11a75964f1a196005880c3de/tumblr_mz7ela9RWh1racsbbo1_500.gif" width="900px" height="300px" />
+            </div>
+        </div>
+        
+        <audio autoplay loop src="killpop.mp3"></audio>
+        
+    </body>
+</html>
