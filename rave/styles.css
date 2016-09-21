@@ -1,6 +1,7 @@
 body {
     animation: colorchange 0.3s infinite;
     -webkit-animation: colorchange 0.5s infinite;
+    
 }
 
  @keyframes colorchange {
@@ -19,3 +20,8 @@ body {
       100% {background: #00aaff;}
 }
 
+.text {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: large;
+    
+}
