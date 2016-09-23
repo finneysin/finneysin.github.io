@@ -1,0 +1,26 @@
+body{
+    background: url(https://images.alphacoders.com/201/201591.jpg);
+    background-size:cover;
+}
+
+
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/anime/ani-12/ani1136.ani), url(http://cur.cursors-4u.net/anime/ani-12/ani1136.gif), progress !important;} /* End http://www.cursors-4u.com */
+
+.weeb{
+    width:500px;
+    height:280px;
+    text-align:center;
+}
+
+.weeb2{
+    width:1000px;
+    height:540px;
+}
+
+p{
+    color:white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    font-size:16px;
+    
+}
