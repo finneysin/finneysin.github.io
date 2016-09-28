@@ -22,3 +22,24 @@ canvas.addEventListener("mousemove", function(event){
 
 }
 );
+
+var track1 = new Audio('music/choose.mp3');
+track1.play();
+var currentTrack = 0;
+
+track1.onended = function(){playtrack2()};
+function playtrack2() {
+    switch (currentTrack) {
+        case 0:
+        track1 = new Audio('music/desire.mp3');
+        track1.play();
+        break;
+        
+        case 1:
+        track1 = new Audio('music/caramell.mp3');
+        track1.play();
+        break;
+    }
+    currentTrack++;
+}
+

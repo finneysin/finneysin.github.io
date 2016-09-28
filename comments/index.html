@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css"/>
+        <script src="blog.js"></script>
+    </head>
+    <body>
+  <div class="container">
+    <div class="comment-box">
+      <div class="comment-form">
+        <div class="header">Add Your Comment</div>
+        <form action="#" onsubmit="event.preventDefault(); postComment()">
+          <div> 
+            <input type="text" id="name" placeholder="Name"/>
+          </div>
+          <div>
+            <textarea id="comment" rows="3" cols="30" placeholder="Comment"></textarea>
+          </div>
+          <button type="submit">COMMENT</button>
+        </form>  
+      </div>
+      <div>
+        <h4 class="header">Comments</h4>
+        <div id="comments"></div>
+      </div>
+      <div class="footer"><hr><p>Made by Ol' Dally</p></div>
+    </div>
+  </div>
+    </body>
+</html>
